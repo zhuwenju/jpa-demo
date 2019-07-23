@@ -1,0 +1,192 @@
+2019-07-15 21:34:03.262 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "serviceImpl.ftl" at line 14, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "serviceImpl.ftl" at line 14, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createServiceImpl(Generator.java:57)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:64)
+2019-07-15 21:34:03.293 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "controller.ftl" at line 21, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "controller.ftl" at line 21, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createController(Generator.java:65)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:65)
+2019-07-15 21:38:18.558 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "dao.ftl" at line 10, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "dao.ftl" at line 10, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createDao(Generator.java:42)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:62)
+2019-07-15 21:38:18.577 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "serviceImpl.ftl" at line 14, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "serviceImpl.ftl" at line 14, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createServiceImpl(Generator.java:57)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:64)
+2019-07-15 21:38:18.604 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "controller.ftl" at line 21, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "controller.ftl" at line 21, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createController(Generator.java:65)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:65)
+2019-07-15 21:40:07.647 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "dao.ftl" at line 10, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "dao.ftl" at line 10, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createDao(Generator.java:42)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:62)
+2019-07-15 21:40:07.663 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "serviceImpl.ftl" at line 14, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "serviceImpl.ftl" at line 14, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createServiceImpl(Generator.java:57)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:64)
+2019-07-15 21:40:07.692 [main] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> entityUrl  [in template "controller.ftl" at line 21, column 10]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${entityUrl}  [in template "controller.ftl" at line 21, column 8]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.frame.generator.util.FreemarkerUtil.createFile(FreemarkerUtil.java:69)
+	at com.frame.generator.util.Generator.createController(Generator.java:65)
+	at com.frame.generator.util.MyGenerator.main(MyGenerator.java:65)
